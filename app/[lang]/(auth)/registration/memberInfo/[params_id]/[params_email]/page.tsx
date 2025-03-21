@@ -27,19 +27,19 @@ export default function SignUpPage() {
     try {
       //  console.log(formData.get("newsLetter"));
       let alert_pass_error = "";
-      const password = formData.get("password") as string;
-      const passwordConf = formData.get("password-confirm") as string;
+      // const password = formData.get("password") as string;
+      // const passwordConf = formData.get("password-confirm") as string;
 
-      if (password != passwordConf) {
-        if (japan) {
-          alert_pass_error = "「パスワードの確認」が不正です。";
-        } else {
-          alert_pass_error = "Verification code is incorrect.";
-        }
-        alert(alert_pass_error);
+      // if (password != passwordConf) {
+      //   if (japan) {
+      //     alert_pass_error = "「パスワードの確認」が不正です。";
+      //   } else {
+      //     alert_pass_error = "Verification code is incorrect.";
+      //   }
+      //   alert(alert_pass_error);
 
-        return;
-      }
+      //   return;
+      // }
 
       if (!formData.get("country")) {
         if (japan) {

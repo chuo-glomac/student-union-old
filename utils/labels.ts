@@ -59,8 +59,8 @@ const labels: NestedLocalizedString = {
       ja: "！iCloudは使用できません！<br />このメールアドレスは卒業後の連絡にも使用されます。(全学メールは使用できません）",
     },
     password_label: {
-      en: "Private Email",
-      ja: "個人メールアドレス"
+      en: "Password",
+      ja: "パスワード"
     },
     password_desc: {
       en: "This is used to login to apps with Private Email.<br />Must contain letter, number, and be at least 8 characters.",
